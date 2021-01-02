@@ -28,3 +28,4 @@ COPY ./public ./dist/public
 WORKDIR /app/dist
 
 CMD [ "node", "server.js" ]
+EXPOSE 3000
